@@ -68,7 +68,7 @@ class _HomePageState extends State<HomePage> {
                   max_dy = max(max_dx,dy);
                   min_dy = min(min_dx,dy);
                 //  0.8x and 0.8y act as thresholds, when the acceleromer crosses
-                //  the threshold for 3 sec, it pushes a notification("you gonna be dead")
+                //  the threshold for 3 sec, it pushes a notification
                 }
                 else{
                   int itr=0;
